@@ -3,7 +3,7 @@ defmodule InmanaWeb.SuppliesController do
 
   alias InmanaWeb.FallbackController
 
-  alias Inmana.Schema.Supply
+  alias Inmana.Supplies.Schema.Supply
 
   alias Inmana.Supplies
 

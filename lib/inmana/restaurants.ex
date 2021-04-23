@@ -3,7 +3,7 @@ defmodule Inmana.Restaurants do
   Restaunt's business logic
   """
   alias Inmana.Repo
-  alias Inmana.Schema.Restaurant
+  alias Inmana.Restaurants.Schema.Restaurant
 
   def create(params) do
     with %Ecto.Changeset{} = changeset <- Restaurant.changeset(params),

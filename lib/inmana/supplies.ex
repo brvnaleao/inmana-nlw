@@ -3,7 +3,8 @@ defmodule Inmana.Supplies do
   Supply's business logic
   """
   alias Inmana.Repo
-  alias Inmana.Schema.{Restaurant, Supply}
+  alias Inmana.Restaurants.Schema.Restaurant
+  alias Inmana.Supplies.Schema.Supply
   import Ecto.Query
 
   def create(params) do

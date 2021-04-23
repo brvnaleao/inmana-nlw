@@ -1,7 +1,7 @@
-defmodule Inmana.Schema.Restaurant do
+defmodule Inmana.Restaurants.Schema.Restaurant do
   use Ecto.Schema
   import Ecto.Changeset
-  alias Inmana.Schema.Supply
+  alias Inmana.Supplies.Schema.Supply
 
   @required_fields [:name, :email]
   @email_regex ~r/^[A-Za-z0-9\._%+\-+']+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,4}$/

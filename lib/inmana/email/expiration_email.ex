@@ -1,6 +1,6 @@
 defmodule Inmana.Email.ExpirationEmail do
   import Bamboo.Email
-  alias Inmana.Schema.Supply
+  alias Inmana.Supplies.Schema.Supply
 
   def create(to_email, supplies) do
     new_email(

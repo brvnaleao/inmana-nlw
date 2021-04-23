@@ -1,8 +1,8 @@
-defmodule Inmana.Schema.Supply do
+defmodule Inmana.Supplies.Schema.Supply do
   use Ecto.Schema
   import Ecto.Changeset
 
-  alias Inmana.Schema.Restaurant
+  alias Inmana.Restaurants.Schema.Restaurant
 
   @required_fields [:description, :expiration_date, :responsible, :restaurant_id]
 
